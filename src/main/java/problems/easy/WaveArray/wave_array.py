@@ -4,14 +4,10 @@
 #Complete this function
 def convertToWave(A,N):
     #Your code here
-    result = []
     for index in range(1, N if N % 2 == 1 else N + 1, 2):
-        result.append(A[index])
-        result.append(A[index - 1])
-    if N % 2 == 1:
-        result.append(A[len(A) - 1])
-    A = result
-    return A
+        previous = A[index - 1]
+        A[index - 1] = A[index]
+        A[index] = previous
 
 
 '''
