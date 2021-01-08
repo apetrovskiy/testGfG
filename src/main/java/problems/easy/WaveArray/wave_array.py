@@ -8,7 +8,8 @@ def convertToWave(A,N):
     for index in range(1, N if N % 2 == 1 else N + 1, 2):
         result.append(A[index])
         result.append(A[index - 1])
-        print(result)
+    if N % 2 == 1:
+        result.append(A[len(A) - 1])
     return result
 
 
