@@ -10,7 +10,8 @@ def convertToWave(A,N):
         result.append(A[index - 1])
     if N % 2 == 1:
         result.append(A[len(A) - 1])
-    return result
+    A = result
+    return A
 
 
 '''
