@@ -13,4 +13,5 @@ test_data = [
 
 @pytest.mark.parametrize("number,input_array,expected_result", test_data)
 def test_wave_array(number: int, input_array: List[int], expected_result: List[int]):
-    assert expected_result == convertToWave(input_array, number)
+    convertToWave(input_array, number)
+    assert expected_result == input_array
