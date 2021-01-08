@@ -5,7 +5,7 @@
 def convertToWave(A,N):
     #Your code here
     result = []
-    for index in range(1, N, 2):
+    for index in range(1, N if N % 2 == 1 else N + 1, 2):
         result.append(A[index])
         result.append(A[index - 1])
         print(result)
