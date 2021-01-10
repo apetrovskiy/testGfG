@@ -1,6 +1,11 @@
+from collections import Counter
+
+
 def frequencycount(A,N):
     # code here
-
+    counter = Counter(A)
+    for index in range(1, N + 1):
+        A[index - 1] = counter[index]
 
 
 '''
