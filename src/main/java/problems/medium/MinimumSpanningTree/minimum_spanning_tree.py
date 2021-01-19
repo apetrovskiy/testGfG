@@ -9,6 +9,7 @@ class Solution:
     '''
     def spanningTree(self, V, adj):
         #code here
+        return 1
 
 
 '''
