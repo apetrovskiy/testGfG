@@ -1,4 +1,5 @@
-from src.main.java.problems.easy.HuffmanDecoding.huffman_decoding import MinHeapNode, decodeHuffmanData
+import heapq
+from src.main.java.problems.easy.HuffmanDecoding.huffman_decoding import MinHeapNode, calcFreq, decodeHuffmanData, huffmanCodes, minheap
 import pytest
 
 
@@ -8,6 +9,25 @@ test_data = [
 ]
 
 
+'''
 @pytest.mark.parametrize("binaryString,root,expected_result", test_data)
 def test_huffman_decoding(binaryString: str, root: MinHeapNode, expected_result: str):
-    assert expected_result == decodeHuffmanData(root, binaryString)
+    minheap = []
+    heapq.heapify(minheap)
+    cnt=0
+    codes = {}
+    freq = {}
+    t = binaryString
+    while(t>0):
+        strr = input()
+    encodedString = ""
+    decodedString = ""
+    calcFreq(strr, len(strr))
+    #print(freq)
+    huffmanCodes(len(strr))
+    #print(codes)
+    for i in strr:
+        encodedString += codes[i]
+    huffmanCodes(expected_result)
+    assert expected_result == decodeHuffmanData(minheap[0][2], binaryString)
+'''

@@ -10,7 +10,19 @@ class MinHeapNode:
 '''
 def decodeHuffmanData(root, binaryString):
     #your code here
-    return ""
+    temp = root
+    result = []
+    
+    for char in binaryString:
+        if char is '0':
+            temp = temp.left
+        else:
+            temp = temp.right
+        
+        if temp.left is None and temp.right is None:
+            result.append(temp.data)
+            temp = root
+    return ''.join(result)
 
 
 #{ 
