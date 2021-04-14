@@ -1,0 +1,62 @@
+{
+  "uid" : "22ccf71c3c9eecdc",
+  "name" : "test_wave_array[6-input_array1-expected_result1]",
+  "fullName" : "src.test.java.problems.easy.WaveArray.test_wave_array#test_wave_array",
+  "historyId" : "c1b64c2405b54131e50ecd0e36038eba",
+  "time" : {
+    "start" : 1618444541702,
+    "stop" : 1618444541703,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.WaveArray"
+  }, {
+    "name" : "suite",
+    "value" : "test_wave_array"
+  }, {
+    "name" : "host",
+    "value" : "fv-az132-420"
+  }, {
+    "name" : "thread",
+    "value" : "3069-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.WaveArray.test_wave_array"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "[4, 2, 8, 7, 10, 9]"
+  }, {
+    "name" : "input_array",
+    "value" : "[2, 4, 7, 8, 9, 10]"
+  }, {
+    "name" : "number",
+    "value" : "6"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22ccf71c3c9eecdc.json",
+  "parameterValues" : [ "[4, 2, 8, 7, 10, 9]", "[2, 4, 7, 8, 9, 10]", "6" ]
+}

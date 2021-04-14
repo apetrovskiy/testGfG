@@ -1,0 +1,62 @@
+{
+  "uid" : "a228a963931cb273",
+  "name" : "test_is_time_in[interval1-time1-False]",
+  "fullName" : "src.test.java.problems.medium.MinimumPlatforms.test_minimum_platforms#test_is_time_in",
+  "historyId" : "fd8e395f7dd74fe4853790d792aa5cbe",
+  "time" : {
+    "start" : 1618444541758,
+    "stop" : 1618444541758,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.medium.MinimumPlatforms"
+  }, {
+    "name" : "suite",
+    "value" : "test_minimum_platforms"
+  }, {
+    "name" : "host",
+    "value" : "fv-az132-420"
+  }, {
+    "name" : "thread",
+    "value" : "3069-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.MinimumPlatforms.test_minimum_platforms"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "False"
+  }, {
+    "name" : "interval",
+    "value" : "[[8, 50], [9, 0]]"
+  }, {
+    "name" : "time",
+    "value" : "[8, 50]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a228a963931cb273.json",
+  "parameterValues" : [ "False", "[[8, 50], [9, 0]]", "[8, 50]" ]
+}

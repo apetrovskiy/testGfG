@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert ['0', '100', ...'1101', '111'] == []\n  Left contains 6 more items, first extra item: '0'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_huffman_encoding[abcdef-nodes0-expected_result0]",
+        "uid" : "4416135ed9ee3c79",
+        "parentUid" : "6639b361bacf0e26e68cff1076f7a4e7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618444541660,
+          "stop" : 1618444541661,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['0', '100', '101', '1100', '1101', '111']", "[5, 9, 12, 13, 16, 45]", "'abcdef'" ]
+      } ],
+      "uid" : "6639b361bacf0e26e68cff1076f7a4e7"
+    }, {
+      "name" : "AssertionError: assert [1, 3, 4] == [1]\n  Left contains 2 more items, first extra item: 3\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_possible_paths[7-edges0-3-queries0-expected_result0]",
+        "uid" : "9b442f7e72522c49",
+        "parentUid" : "d2b0657d540cfd644f19c63b8d4f6ad3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618444541709,
+          "stop" : 1618444541709,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[[1, 2, 3], [2, 3, 1], [2, 4, 9], [3, 6, 7], [3, 5, 8], [5, 7, 4]]", "[1, 3, 4]", "7", "3", "[1, 3, 5]" ]
+      } ],
+      "uid" : "d2b0657d540cfd644f19c63b8d4f6ad3"
+    }, {
+      "name" : "AssertionError: assert 0 == 1\n +  where 1 = <bound method Solution.spanningTree of <src.main.java.problems.medium.MinimumSpanningTree.minimum_spanning_tree.Solution object at 0x7fed43598be0>>(2, [[[1, 5], [2, 1]], [[0, 5], [2, 3]], [[1, 3], [0, 1]]])\n +    where <bound method Solution.spanningTree of <src.main.java.problems.medium.MinimumSpanningTree.minimum_spanning_tree.Solution object at 0x7fed43598be0>> = <src.main.java.problems.medium.MinimumSpanningTree.minimum_spanning_tree.Solution object at 0x7fed43598be0>.spanningTree\n +      where <src.main.java.problems.medium.MinimumSpanningTree.minimum_spanning_tree.Solution object at 0x7fed43598be0> = Solution()",
+      "children" : [ {
+        "name" : "test_minimum_spanning_tree[2-matrix0-0]",
+        "uid" : "b8bf5eafd0285b8d",
+        "parentUid" : "6f1187b5855123246c9b1d3816b1b081",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618444541818,
+          "stop" : 1618444541818,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "[[[1, 5], [2, 1]], [[0, 5], [2, 3]], [[1, 3], [0, 1]]]", "2" ]
+      } ],
+      "uid" : "6f1187b5855123246c9b1d3816b1b081"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

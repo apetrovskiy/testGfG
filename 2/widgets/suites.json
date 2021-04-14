@@ -1,0 +1,114 @@
+{
+  "total" : 10,
+  "items" : [ {
+    "uid" : "f5a29b3cffc4d1f428edb32a7a38fb6e",
+    "name" : "src.test.java.problems.hard.PossiblePaths",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "a95244dd5356e812e7e8bfc46e531d8b",
+    "name" : "src.test.java.problems.easy.HuffmanEncoding",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c4415c231b7a7d1b0b5f3e58664093f8",
+    "name" : "src.test.java.problems.medium.MinimumSpanningTree",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6d9f50d7b74542f62b505d7f21f2694c",
+    "name" : "src.test.java.problems.medium.MinimumPlatforms",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 34,
+      "unknown" : 0,
+      "total" : 34
+    }
+  }, {
+    "uid" : "9e6a802d9f90db136a26aaad1b974948",
+    "name" : "src.test.java.problems.basic.TheSpiderSteps",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "ea7a1c81fdec875ccca38b3bf97186b7",
+    "name" : "src.test.java.problems.basic.SmallestNumber",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "e8a5e6e38ff06e9f15f39e4f4c8c168b",
+    "name" : "src.test.java.problems.easy.WaveArray",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "77b983b49078a18c3d0b04d2b36ba490",
+    "name" : "src.test.java.problems.basic.LCMandGCD",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "685c92108af6356517fa90df05c2f4ee",
+    "name" : "src.test.java.problems.easy.FrequenciesOfLimitedRangeArrayElements",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "6898f8299fc1d08a390b69220bffd84e",
+    "name" : "src.test.java.problems.easy.MaximumValueInBitonicArray",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}
