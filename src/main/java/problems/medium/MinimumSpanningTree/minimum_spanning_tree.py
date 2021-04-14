@@ -1,4 +1,4 @@
-#User function Template for python3
+# User function Template for python3
 
 class Solution:
     # Function to construct and return cost of MST for a graph
@@ -7,13 +7,14 @@ class Solution:
     V: nodes in graph
     adj: adjacency list
     '''
+
     def spanningTree(self, V, adj):
-        #code here
+        # code here
         return 1
 
 
 '''
-#{ 
+#{
 #  Driver Code Starts
 #Initial Template for Python 3
 import atexit
@@ -32,7 +33,7 @@ if __name__ == '__main__':
             adj[u].append([v,w])
             adj[v].append([u,w])
         ob = Solution()
-        
+
         print(ob.spanningTree(V,adj))
 # } Driver Code Ends
 '''

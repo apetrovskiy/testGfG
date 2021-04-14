@@ -3,7 +3,8 @@
 class Solution:
     def lcmAndGcd(self, A, B):
         # code here
-        return [self.lowest_common_multiple(A, B), self.greatest_common_divisor(A, B)]
+        return [self.lowest_common_multiple(A, B),
+                self.greatest_common_divisor(A, B)]
 
     def greatest_common_divisor(self, A: int, B: int) -> int:
         while B != 0:
@@ -20,19 +21,19 @@ class Solution:
 
 
 '''
-#{ 
+#{
 #  Driver Code Starts
 #Initial Template for Python 3
 
 import math
-if __name__ == '__main__': 
+if __name__ == '__main__':
     t = int (input ())
     for _ in range (t):
         A,B=map(int,input().split())
-        
+
         ob = Solution()
         ptr = ob.lcmAndGcd(A,B)
-        
+
         print(ptr[0],ptr[1])
 # } Driver Code Ends
 '''

@@ -1,4 +1,5 @@
-from src.main.java.problems.medium.MinimumSpanningTree.minimum_spanning_tree import Solution
+from src.main.java.problems.medium.MinimumSpanningTree.minimum_spanning_tree \
+    import Solution
 import pytest
 
 

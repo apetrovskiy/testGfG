@@ -1,4 +1,5 @@
-from src.main.java.problems.easy.FrequenciesOfLimitedRangeArrayElements.frequencies_of_limited_range_array_elements import frequencycount
+from src.main.java.problems.easy.FrequenciesOfLimitedRangeArrayElements.\
+    frequencies_of_limited_range_array_elements import frequencycount
 from typing import List
 import pytest
 
@@ -9,6 +10,7 @@ test_data = [
 
 
 @pytest.mark.parametrize("number,input_data,expected_result", test_data)
-def test_frequencies_of_limited_range_array_elements(number: int, input_data: List[int], expected_result: List[int]):
+def test_frequencies_of_limited_range_array_elements(
+        number: int, input_data: List[int], expected_result: List[int]):
     frequencycount(input_data, number)
     assert expected_result == input_data

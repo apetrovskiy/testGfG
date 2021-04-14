@@ -1,4 +1,5 @@
-from src.main.java.problems.basic.TheSpiderSteps.the_spider_steps import Solution
+from src.main.java.problems.basic.TheSpiderSteps.the_spider_steps \
+    import Solution
 import pytest
 
 

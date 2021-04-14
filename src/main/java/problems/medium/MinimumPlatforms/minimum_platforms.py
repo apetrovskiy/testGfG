@@ -7,11 +7,13 @@ def convert(time: str) -> List[int]:
 
 
 def is_later(period1: List[int], period2: List[int]) -> bool:
-    return period1[0] > period2[0] or (period1[0] == period2[0] and period1[1] > period2[1])
+    return period1[0] > period2[0] \
+        or (period1[0] == period2[0] and period1[1] > period2[1])
 
 
 def is_earlier(period1: List[int], period2: List[int]) -> bool:
-    return period1[0] < period2[0] or (period1[0] == period2[0] and period1[1] < period2[1])
+    return period1[0] < period2[0] \
+        or (period1[0] == period2[0] and period1[1] < period2[1])
 
 
 def is_time_in(interval: List[List[int]], time: List[int]) -> bool:
@@ -20,16 +22,20 @@ def is_time_in(interval: List[List[int]], time: List[int]) -> bool:
     return is_later(time, interval[0]) and is_earlier(time, interval[1])
 
 
-def is_interval_in(interval: List[List[int]], interval_to_check: List[List[int]]) -> bool:
-    return is_time_in(interval, interval_to_check[0]) or is_time_in(interval, interval_to_check[1])
+def is_interval_in(interval: List[List[int]],
+                   interval_to_check: List[List[int]]) -> bool:
+    return is_time_in(interval, interval_to_check[0]) \
+        or is_time_in(interval, interval_to_check[1])
 
 
-def is_interval_in_schedule(schedule: List[List[List[int]]], interval_to_check: List[List[int]]) -> bool:
+def is_interval_in_schedule(schedule: List[List[List[int]]],
+                            interval_to_check: List[List[int]]) -> bool:
     if len(schedule) == 0:
         return False
     # result = [True for x in schedule if is_interval_in(x, interval_to_check)]
     # return len(result) > 0
-    return sum((1 for x in schedule if is_interval_in(x, interval_to_check))) > 0
+    return sum((1 for x in schedule
+                if is_interval_in(x, interval_to_check))) > 0
 
 
 def minimumPlatformSlow(n, arr, dep):
@@ -43,7 +49,8 @@ def minimumPlatformSlow(n, arr, dep):
     # arrivals = [convert(x) for x in arr]
     # departures = [convert(x) for x in dep]
     # platform_times: List[List[int]] = list(zip(arrivals, departures))
-    platform_times = list(zip((convert(x) for x in arr), (convert(x) for x in dep)))
+    platform_times = list(zip((convert(x)
+                               for x in arr), (convert(x) for x in dep)))
     platforms: List[List[List[int]]] = [[]]
     for time in platform_times:
         time_inserted_into_schedule = False
@@ -58,7 +65,7 @@ def minimumPlatformSlow(n, arr, dep):
 
 
 '''
-#{ 
+#{
 #  Driver Code Starts
 #Initial Template for Python 3
 import atexit
