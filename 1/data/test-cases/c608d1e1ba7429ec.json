@@ -1,0 +1,82 @@
+{
+  "uid" : "c608d1e1ba7429ec",
+  "name" : "test_is_interval_in_schedule[schedule3-interval_to_test3-False]",
+  "fullName" : "src.test.java.problems.medium.MinimumPlatforms.test_minimum_platforms#test_is_interval_in_schedule",
+  "historyId" : "576f332cfefb3c12013e6bf7abc3f730",
+  "time" : {
+    "start" : 1618554895606,
+    "stop" : 1618554895606,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.medium.MinimumPlatforms"
+  }, {
+    "name" : "suite",
+    "value" : "test_minimum_platforms"
+  }, {
+    "name" : "host",
+    "value" : "fv-az278-472"
+  }, {
+    "name" : "thread",
+    "value" : "3080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.MinimumPlatforms.test_minimum_platforms"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "False"
+  }, {
+    "name" : "interval_to_test",
+    "value" : "[[8, 0], [8, 30]]"
+  }, {
+    "name" : "schedule",
+    "value" : "[[[9, 0], [9.4]], [[10, 0], [10, 20]]]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c591aed4a1797e4b",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/2//#testresult/c591aed4a1797e4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618444541803,
+          "stop" : 1618444541803,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c608d1e1ba7429ec.json",
+  "parameterValues" : [ "False", "[[8, 0], [8, 30]]", "[[[9, 0], [9.4]], [[10, 0], [10, 20]]]" ]
+}

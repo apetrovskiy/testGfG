@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://apetrovskiy.github.io/testGfG/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 53,
+    "unknown" : 0,
+    "total" : 56
+  }
+}, {
   "buildOrder" : 2,
   "reportUrl" : "https://apetrovskiy.github.io/testGfG/2/",
   "reportName" : "Allure Report with history",

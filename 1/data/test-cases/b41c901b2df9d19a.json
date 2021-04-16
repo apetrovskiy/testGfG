@@ -1,0 +1,82 @@
+{
+  "uid" : "b41c901b2df9d19a",
+  "name" : "test_smallest_number[10-1--1]",
+  "fullName" : "src.test.java.problems.basic.SmallestNumber.test_smallest_number#test_smallest_number",
+  "historyId" : "15f4dff8d8ffc92a1e4abe0b3a4eb449",
+  "time" : {
+    "start" : 1618554895480,
+    "stop" : 1618554895480,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.basic.SmallestNumber"
+  }, {
+    "name" : "suite",
+    "value" : "test_smallest_number"
+  }, {
+    "name" : "host",
+    "value" : "fv-az278-472"
+  }, {
+    "name" : "thread",
+    "value" : "3080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.basic.SmallestNumber.test_smallest_number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "-1"
+  }, {
+    "name" : "number_of_digits",
+    "value" : "1"
+  }, {
+    "name" : "sum_of_digits",
+    "value" : "10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c0f866d0fbe6a95c",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/2//#testresult/c0f866d0fbe6a95c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618444541630,
+          "stop" : 1618444541630,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b41c901b2df9d19a.json",
+  "parameterValues" : [ "-1", "1", "10" ]
+}
