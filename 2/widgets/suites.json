@@ -1,39 +1,6 @@
 {
   "total" : 10,
   "items" : [ {
-    "uid" : "f5a29b3cffc4d1f428edb32a7a38fb6e",
-    "name" : "src.test.java.problems.hard.PossiblePaths",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "a95244dd5356e812e7e8bfc46e531d8b",
-    "name" : "src.test.java.problems.easy.HuffmanEncoding",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "c4415c231b7a7d1b0b5f3e58664093f8",
-    "name" : "src.test.java.problems.medium.MinimumSpanningTree",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "6d9f50d7b74542f62b505d7f21f2694c",
     "name" : "src.test.java.problems.medium.MinimumPlatforms",
     "statistic" : {
@@ -109,6 +76,39 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "f5a29b3cffc4d1f428edb32a7a38fb6e",
+    "name" : "src.test.java.problems.hard.PossiblePaths",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a95244dd5356e812e7e8bfc46e531d8b",
+    "name" : "src.test.java.problems.easy.HuffmanEncoding",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c4415c231b7a7d1b0b5f3e58664093f8",
+    "name" : "src.test.java.problems.medium.MinimumSpanningTree",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

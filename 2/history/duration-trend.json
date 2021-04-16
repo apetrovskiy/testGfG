@@ -3,6 +3,20 @@
   "reportUrl" : "https://apetrovskiy.github.io/testGfG/2/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 169
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://apetrovskiy.github.io/testGfG/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 146
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://apetrovskiy.github.io/testGfG/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 200
   }
 }, {

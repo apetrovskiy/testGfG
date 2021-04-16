@@ -1,0 +1,91 @@
+{
+  "uid" : "ee4292b379c4807e",
+  "name" : "test_is_later[time0-base_time0-True]",
+  "fullName" : "src.test.java.problems.medium.MinimumPlatforms.test_minimum_platforms#test_is_later",
+  "historyId" : "a7530a92b4bb027384917f29c2458435",
+  "time" : {
+    "start" : 1618557716761,
+    "stop" : 1618557716762,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.medium.MinimumPlatforms"
+  }, {
+    "name" : "suite",
+    "value" : "test_minimum_platforms"
+  }, {
+    "name" : "host",
+    "value" : "fv-az235-465"
+  }, {
+    "name" : "thread",
+    "value" : "3096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.MinimumPlatforms.test_minimum_platforms"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "base_time",
+    "value" : "[9, 40]"
+  }, {
+    "name" : "expected_result",
+    "value" : "True"
+  }, {
+    "name" : "time",
+    "value" : "[9, 50]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "10b8ca460948736e",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/1//#testresult/10b8ca460948736e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618554895552,
+          "stop" : 1618554895553,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c863e548dc8918d4",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/2//#testresult/c863e548dc8918d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618444541732,
+          "stop" : 1618444541732,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ee4292b379c4807e.json",
+  "parameterValues" : [ "[9, 40]", "True", "[9, 50]" ]
+}
