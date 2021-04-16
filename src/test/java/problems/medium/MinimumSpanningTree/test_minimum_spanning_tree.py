@@ -9,6 +9,7 @@ test_data = [
 ]
 
 
+@pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("vertices,matrix,expected_result", test_data)
 def test_minimum_spanning_tree(vertices, matrix, expected_result):
     assert expected_result == Solution().spanningTree(vertices, matrix)

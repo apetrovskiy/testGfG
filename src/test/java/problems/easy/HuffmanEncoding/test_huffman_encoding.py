@@ -10,6 +10,7 @@ test_data = [
 ]
 
 
+@pytest.mark.skip(reason="TODO: no way of currently testing this")
 @pytest.mark.parametrize("text,nodes,expected_result", test_data)
 def test_huffman_encoding(text: str,
                           nodes: List[int], expected_result: List[str]):
