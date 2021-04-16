@@ -1,0 +1,100 @@
+{
+  "uid" : "f55cdc680b7b8eee",
+  "name" : "test_is_earlier[time2-base_time2-False]",
+  "fullName" : "src.test.java.problems.medium.MinimumPlatforms.test_minimum_platforms#test_is_earlier",
+  "historyId" : "36252854382b639425e0db740610e80d",
+  "time" : {
+    "start" : 1618612239550,
+    "stop" : 1618612239550,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.medium.MinimumPlatforms"
+  }, {
+    "name" : "suite",
+    "value" : "test_minimum_platforms"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-561"
+  }, {
+    "name" : "thread",
+    "value" : "3060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.medium.MinimumPlatforms.test_minimum_platforms"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "base_time",
+    "value" : "[9.4]"
+  }, {
+    "name" : "expected_result",
+    "value" : "False"
+  }, {
+    "name" : "time",
+    "value" : "[10, 0]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e9e9426ea9d22f99",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/2//#testresult/e9e9426ea9d22f99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618557716779,
+          "stop" : 1618557716779,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c0bf35d2f89d35dd",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/1//#testresult/c0bf35d2f89d35dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618554895565,
+          "stop" : 1618554895565,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2f41cddffc4566a1",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/2//#testresult/2f41cddffc4566a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618444541749,
+          "stop" : 1618444541749,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f55cdc680b7b8eee.json",
+  "parameterValues" : [ "[9.4]", "False", "[10, 0]" ]
+}
