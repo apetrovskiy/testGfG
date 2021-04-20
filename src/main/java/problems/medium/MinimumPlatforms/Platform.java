@@ -45,7 +45,7 @@ class Platform
     static int findPlatform(int arr[], int dep[], int n)
     {
         // add your code here
-        
+        return 0;
     }
     
 }
