@@ -26,5 +26,6 @@ class GFG
 class Solution{
     static String smallestNumber(int S, int D){
         // code here
+        return "";
     }
 }
