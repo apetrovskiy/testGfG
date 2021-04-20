@@ -27,5 +27,6 @@ class GFG {
 class Solution {
     static Long[] lcmAndGcd(Long A , Long B) {
         // code here
+        return new Long[]{};
     }
 };
