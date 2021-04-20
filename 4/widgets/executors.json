@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://apetrovskiy.github.io/testGfG",
+  "buildOrder" : 4,
+  "buildName" : "GitHub Actions Run #767612289",
+  "buildUrl" : "https://github.com/apetrovskiy/testGfG/actions/runs/767612289",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://apetrovskiy.github.io/testGfG/4/"
+} ]
