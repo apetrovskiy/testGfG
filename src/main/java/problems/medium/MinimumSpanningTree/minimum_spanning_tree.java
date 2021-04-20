@@ -1,4 +1,4 @@
-
+package problems.medium.MinimumSpanningTree;
 // { Driver Code Starts
 import java.util.*;
 import java.io.*;

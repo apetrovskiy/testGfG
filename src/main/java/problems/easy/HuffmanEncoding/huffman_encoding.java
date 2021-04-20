@@ -1,3 +1,4 @@
+package problems.easy.HuffmanEncoding;
 /*package whatever //do not write package name here */
 
 import java.util.*;

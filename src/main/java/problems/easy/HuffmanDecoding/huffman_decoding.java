@@ -1,3 +1,4 @@
+package problems.easy.HuffmanDecoding;
 // { Driver Code Starts
 //Initial Template for Java
 

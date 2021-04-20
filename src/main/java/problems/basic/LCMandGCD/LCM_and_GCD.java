@@ -1,3 +1,4 @@
+package problems.basic.LCMandGCD;
 // { Driver Code Starts
 import java.io.*;
 import java.util.*;
