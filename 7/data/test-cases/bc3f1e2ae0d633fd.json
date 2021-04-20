@@ -1,0 +1,136 @@
+{
+  "uid" : "bc3f1e2ae0d633fd",
+  "name" : "test_frequencies_of_limited_range_array_elements[5-input_data0-expected_result0]",
+  "fullName" : "src.test.java.problems.easy.FrequenciesOfLimitedRangeArrayElements.test_frequencies_of_limited_range_array_elements#test_frequencies_of_limited_range_array_elements",
+  "historyId" : "563d2607e394da047313c0206d17b9dd",
+  "time" : {
+    "start" : 1618936448135,
+    "stop" : 1618936448135,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "src.test.java.problems.easy.FrequenciesOfLimitedRangeArrayElements"
+  }, {
+    "name" : "suite",
+    "value" : "test_frequencies_of_limited_range_array_elements"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-561"
+  }, {
+    "name" : "thread",
+    "value" : "3095-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.problems.easy.FrequenciesOfLimitedRangeArrayElements.test_frequencies_of_limited_range_array_elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "[0, 2, 2, 0, 1]"
+  }, {
+    "name" : "input_data",
+    "value" : "[2, 3, 2, 3, 5]"
+  }, {
+    "name" : "number",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "7b19abd1986d61fe",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/6//#testresult/7b19abd1986d61fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618935978117,
+          "stop" : 1618935978118,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "eb04c5013f5b4fcf",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/5//#testresult/eb04c5013f5b4fcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618935450225,
+          "stop" : 1618935450225,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7350ab7d61a39b41",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/4//#testresult/7350ab7d61a39b41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618931800140,
+          "stop" : 1618931800140,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6bca0d9925ece766",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/3//#testresult/6bca0d9925ece766",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618612239490,
+          "stop" : 1618612239491,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2cbc554bbca9b833",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/2//#testresult/2cbc554bbca9b833",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618557716719,
+          "stop" : 1618557716720,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6913400cecda58a5",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/1//#testresult/6913400cecda58a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618554895497,
+          "stop" : 1618554895497,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "797837506bc0fa4b",
+        "reportUrl" : "https://apetrovskiy.github.io/testGfG/2//#testresult/797837506bc0fa4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618444541654,
+          "stop" : 1618444541654,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bc3f1e2ae0d633fd.json",
+  "parameterValues" : [ "[0, 2, 2, 0, 1]", "[2, 3, 2, 3, 5]", "5" ]
+}
