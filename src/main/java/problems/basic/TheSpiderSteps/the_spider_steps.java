@@ -29,5 +29,6 @@ class GFG{
 class Solution{
     static int minStep(int H, int U, int D){
         // code here
+        return 0;
     }
 }
