@@ -1,0 +1,316 @@
+<div class="tab-content problem-menu-content">
+        <div id="problems" class="tab-pane fade in active problem-tab">
+            <div class="problem-intro">
+                <div class="row problem-intro__row">
+                    <span class="problem-tab__name"> 
+                        Huffman Decoding 
+                        
+                    </span>
+                    <span class="problem-tab__bookmark">
+                                            <a href="#" class=""> <i id="bookmarkIcon" class="far fa-bookmark add-bookmark" aria-hidden="true" data-toggle="tooltip" title="" data-original-title="Add Bookmark"></i> </a>
+                          
+                    </span>
+                      
+                </div>
+                <div class="row problem-meta-summary">
+                    <strong class="problem-tab__problem-level"> Easy </strong>
+                    <span class="problem-tab__problem-accuracy"> <span class="problem-tab__key">Accuracy:</span> <span class="problem-tab__value"> 63.37% </span> </span>
+                    <span class="problem-tab__problem-total-submissions"> <span class="problem-tab__key"> Submissions:</span> <span class="problem-tab__value"> 3536 </span> </span>
+                    <span class="problem-tab__problem-points"> <span class="problem-tab__key"> Points:</span> <span class="problem-tab__value"> 2 </span> </span>
+                </div>
+                <hr style="margin-top: 10px;">
+            </div>  
+            <div class="problem-statement">
+                <p></p><p><span style="font-size:18px">Given a encoded binary string and a Huffman MinHeap tree, your task is to complete the function decodeHuffmanData(), which decodes the binary encoded string and return the original string.&nbsp;</span></p>
+
+<p><span style="font-size:18px"><strong>Note:</strong> Each node of the min heap contains 2 data members, a character and an integer to denote its frequency. The character '$' is the special character used for internal nodes whose min heap node only need a integer field.</span></p>
+
+<p><br>
+<span style="font-size:18px"><strong>Example 1:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input :</strong>
+binaryString = 
+0000000000001100101010101011111111010101010
+Min Heap Tree =  
+                $(20)
+              /      \
+            /          \
+         $(8)            \
+       /     \             \
+    $(3)      \            $(12)
+    /  \       \           /    \
+B(1)    D(2)    E(5)    C(6)    A(6)</span>
+
+<span style="font-size:18px"><strong>Output:</strong> AAAAAABCCCCCCDDEEEEE</span>
+
+<span style="font-size:18px"><strong>Explanation:</strong>
+The following chart can be made from the 
+given min heap tree.
+<strong>character    frequency    code</strong>
+    A             6        00                 
+    B             1        110
+    C             6        01
+    D             2        111    
+    E             5        10</span></pre>
+
+<p><br>
+<span style="font-size:18px"><strong>Example 2:</strong></span></p>
+
+<pre><span style="font-size:18px"><strong>Input :</strong>
+binaryString =
+01110100011111000101101011101000111
+Min Heap Tree =  
+                         $(13)
+                      /        \
+                    /            \
+                  /                \
+               $(5)                  \
+             /      \                  \
+            /        \                   \
+         $(3)         \                  $(8)
+        /    \         \                /    \
+     $(2)     \         \            $(4)     \
+    /   \      \         \          /   \      \
+f(1)    o(1)    r(1)    g(2)    k(2)    s(2)    e(4)</span>
+
+<span style="font-size:18px"><strong>Output:</strong> geeksforgeeks</span>
+
+<span style="font-size:18px"><strong>Explanation:</strong>
+The following chart can be made from the 
+given min heap tree.
+<strong>character    frequency    code</strong>
+    f             1        0000                 
+    o             1        0001
+    r             1        001
+    g             2        01    
+    k             2        100
+    s             2        101
+    e             4        11</span></pre>
+
+<p><br>
+<span style="font-size:18px"><strong>Your Task: &nbsp;</strong><br>
+You dont need to read input or print anything. Complete the function <strong>decodeHuffmanData()</strong> which takes the root of the Huffman min heap tree and the encoded Binary String as input parameters and returns the decoded string.</span></p>
+
+<p><br>
+<span style="font-size:18px"><strong>Expected Time Complexity:</strong> O(N log N)<br>
+<strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+
+<p><br>
+<span style="font-size:18px"><strong>Constraints:</strong><br>
+1 ≤ N ≤ 10^3</span></p>
+ <p></p>
+            </div>
+                        
+            <div class="panel-group problem-metainfo-group" id="problemMetaInfo">
+                
+                                <div class="panel shadow-lg metainfo-panel-open">
+                    <div class="panel-heading">
+                        <strong class="panel-title"> 
+                            <a data-toggle="collapse" href="#topicTags" class="" aria-expanded="true"> <strong class="panel-title__text"> Topic Tags </strong> <span class="pull-right"> <i class="fas fa-angle-down  circle-icon rotate down" aria-hidden="true"></i> </span>  </a>
+                        </strong>
+                    </div>
+                    <div id="topicTags" class="panel-collapse collapse in" aria-expanded="true" style="">
+                        <div class="panel-body">
+                        <a class="problem-tag" href="/explore/?category[]=Character Encoding" target="_blank"> <i class="far fa-circle"></i>  <span>Character Encoding </span> </a><a class="problem-tag" href="/explore/?category[]=Greedy" target="_blank"> <i class="far fa-circle"></i>  <span>Greedy </span> </a>                        </div>
+                    </div>
+                </div>
+                
+                                <div class="panel shadow-lg metainfo-panel-open">
+                    <div class="panel-heading">
+                        <strong class="panel-title"> 
+                            <a data-toggle="collapse" href="#relatedCourses" class="" aria-expanded="true"> <strong class="panel-title__text">Related Courses </strong>  <span class="pull-right">  <i class="fas fa-angle-down circle-icon rotate down" aria-hidden="true"></i> </span> </a> 
+                        </strong>
+                    </div>
+                    <div id="relatedCourses" class="panel-collapse collapse in" aria-expanded="true" style="">
+                        <div class="panel-body">
+                        <a class="problem-tag" href="/courses/geeks-classes-live?vC=1" target="_blank">  <i class="far fa-circle"></i> <span>Geeks Classes - Live Session</span> </a><a class="problem-tag" href="/courses/competitive-programming-live?vC=1" target="_blank">  <i class="far fa-circle"></i> <span>Competitive Programming - Live</span> </a>                        </div>
+                    </div>
+                </div>
+                            </div>
+        
+            <div id="tab-content__problems__disqus">
+                <div class="col-sm-12 text-center">
+                    <button id="loadDiscussionBtn" class="btn text-center" type="button"> <img src="https://media.geeksforgeeks.org/img-practice/gfg-practice-discussion-icon-v1.svg"> Load Comments</button>
+                </div>
+                <div class="row gfg-disqus-container">
+                    <div class="col-sm-12 col-xs-12" style="margin-top: 10px;">
+                        <div id="disqus_thread"><iframe id="dsq-app7444" name="dsq-app7444" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;f=geeksforgeekspractice&amp;t_i=problem-page.php%3Fpid%3D700592&amp;t_u=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fproblem-page.php%3Fpid%3D700592&amp;t_d=Huffman%20Decoding%20%7C%20Practice%20%7C%20GeeksforGeeks&amp;t_t=Huffman%20Decoding%20%7C%20Practice%20%7C%20GeeksforGeeks&amp;s_o=default#version=2869742404024826ecd28d8df1c965dd" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 0px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+                        <script>
+                        /**
+                           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                           */
+                          
+                          var disqus_config = function () {
+                              this.page.url = 'https://practice.geeksforgeeks.org/problem-page.php?pid=700592';  // Replace PAGE_URL with your page's canonical URL variable
+                              this.page.identifier = 'problem-page.php?pid=700592'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                              this.callbacks.onNewComment = [function(comment) { 
+                                  var author = 'harshitsidhwa';
+                                  var problem ='Huffman Decoding'; 
+                                  var requestType = 'notifyProblemAuthor';
+                                  var problemLink = window.location.href;
+                                  var sendMail = '';  // don't send mail if problem is older than a month
+                                  if(sendMail) {
+                                      $.ajax({
+                                        type:"POST",
+                                        url:"/ajax/monitorDisqusAjax.php",
+                                        data: {requestType: requestType, author: author, problemLink: problemLink, problem: problem, comment: comment},
+                                        dataType: "json",
+                                      });
+                                  }
+                              }];
+                          };
+                         </script>
+                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 50px;">
+    <button id="reportIssueBtn" type="button" class="btn btn-sm" style="font-size:12px;border-radius:0.3rem;" data-target="#reportIssue" data-toggle="modal" utoken="d68c679a07ea76550875a19e6258dbd33346732531363130393736333534"><i class="fa fa-bug" aria-hidden="true"></i> Report An Issue</button>
+    <br><small>If you are facing any issue on this page. Please let us know.</small>
+</div><br>
+ 
+        </div>
+        <div id="editorial" class="tab-pane fade">
+            <div id="problemEditorials">
+                <h3>Editorial</h3>
+                <p>We strongly recommend solving this problem on your own before viewing its editorial. Do you still want to view the editorial?</p>
+                <a class="btn btn-success btn-round" id="viewEditorial"> Yes </a>
+            </div>
+        </div>
+        <div id="submission" class="tab-pane fade">
+            <div id="mySubmissions">
+                <div class="row">
+                    <h4 style="padding:10px;"> <a class="btn pull-right" target="_blank" href="/problem_submissions.php?pid=700592"> All Submissions </a> </h4>
+                    <h4 style="padding:5px;border-bottom:2px solid #c2b9b9;"> My Submissions:</h4>
+                                            <small style="cursor:pointer; padding:10px;" class="pull-right" id="latestSubmission"> <span id="latestSubmissionIcon"> <i class="fa fa-refresh" aria-hidden="true"></i> </span> Refresh </small>
+
+                        <div class="my-submissions-list to-be-fetched col-sm-12">
+                            <h4 class="text-center"><i class="fa fa-spinner fa-pulse fa-4x"></i> </h4>
+                        </div>
+                          
+                </div>
+            </div>
+        </div>
+        <div id="discussion" class="tab-pane fade">
+            <div class="row">
+                <div id="forum-discussion-container" class="col-md-8 col-md-offset-2">
+                    <span class="discussion-problem-name">
+                        Huffman Decoding                    </span>
+                    <div id="forum-discussion">
+
+
+
+
+    <section id="comments">
+        <div class="forum--header">
+            <div class="forum--search"><input type="text" class="form-control search_content" placeholder="Search doubts, discussions or users"><a class="search--icon discussion-search-locked" data-toggle="modal" data-target="#premium-modal"><img src="https://media.geeksforgeeks.org/img-practice/doubt_search-1599568245.svg" class="img-responsive"></a></div>
+            
+            <a class="ask-doubt locked" data-toggle="modal" data-target="#premium-modal"><img src="https://media.geeksforgeeks.org/img-practice/doubt-lock-white-1600291009.svg" class="img-responsive"> Ask Doubt</a>
+        </div>    
+        <span class="doubt-message">**Our experts will be available from 10 AM to 1 AM (IST)</span>
+        <div class="modal fade" id="discussion-forum" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="discussion-forum">
+            <div class="modal-dialog">
+                <div class="modal-content" style="border-radius:0px">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">Ask / Start a new Discussion</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <input class="form-control input-sm" id="discussion-title" maxlength="200" name="title" placeholder="Title" type="text" value="" required="">
+                        </div>
+                        <div class="form-group">
+                           <textarea class="form-control" cols="20" id="discussion-text" maxlength="2000" name="forum" placeholder="Description" rows="4" style="visibility: hidden; display: none;"></textarea><div id="cke_discussion-text" class="cke_1 cke cke_reset cke_chrome cke_editor_discussion-text cke_ltr cke_browser_webkit" dir="ltr" lang="en" role="application" aria-labelledby="cke_discussion-text_arialbl"><span id="cke_discussion-text_arialbl" class="cke_voice_label">Rich Text Editor, discussion-text</span><div class="cke_inner cke_reset" role="presentation"><span id="cke_1_top" class="cke_top cke_reset_all" role="presentation" style="height: auto; user-select: none;"><span id="cke_12" class="cke_voice_label">Editor toolbars</span><span id="cke_1_toolbox" class="cke_toolbox" role="group" aria-labelledby="cke_12" onmousedown="return false;"><span id="cke_13" class="cke_toolbar" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_14" class="cke_button cke_button__bold cke_button_off" href="javascript:void('Bold')" title="Bold (Ctrl+B)" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_14_label" aria-describedby="cke_14_description" aria-haspopup="false" aria-disabled="false" onkeydown="return CKEDITOR.tools.callFunction(2,event);" onfocus="return CKEDITOR.tools.callFunction(3,event);" onclick="CKEDITOR.tools.callFunction(4,this);return false;"><span class="cke_button_icon cke_button__bold_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -24px;background-size:auto;">&nbsp;</span><span id="cke_14_label" class="cke_button_label cke_button__bold_label" aria-hidden="false">Bold</span><span id="cke_14_description" class="cke_button_label" aria-hidden="false">Keyboard shortcut Ctrl+B</span></a><a id="cke_15" class="cke_button cke_button__italic cke_button_off" href="javascript:void('Italic')" title="Italic (Ctrl+I)" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_15_label" aria-describedby="cke_15_description" aria-haspopup="false" aria-disabled="false" onkeydown="return CKEDITOR.tools.callFunction(5,event);" onfocus="return CKEDITOR.tools.callFunction(6,event);" onclick="CKEDITOR.tools.callFunction(7,this);return false;"><span class="cke_button_icon cke_button__italic_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -48px;background-size:auto;">&nbsp;</span><span id="cke_15_label" class="cke_button_label cke_button__italic_label" aria-hidden="false">Italic</span><span id="cke_15_description" class="cke_button_label" aria-hidden="false">Keyboard shortcut Ctrl+I</span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_16" class="cke_toolbar" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_17" class="cke_button cke_button__link cke_button_off" href="javascript:void('Link')" title="Link (Ctrl+K)" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_17_label" aria-describedby="cke_17_description" aria-haspopup="false" aria-disabled="false" onkeydown="return CKEDITOR.tools.callFunction(8,event);" onfocus="return CKEDITOR.tools.callFunction(9,event);" onclick="CKEDITOR.tools.callFunction(10,this);return false;"><span class="cke_button_icon cke_button__link_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -1512px;background-size:auto;">&nbsp;</span><span id="cke_17_label" class="cke_button_label cke_button__link_label" aria-hidden="false">Link</span><span id="cke_17_description" class="cke_button_label" aria-hidden="false">Keyboard shortcut Ctrl+K</span></a><a id="cke_18" class="cke_button cke_button__image cke_button_off" href="javascript:void('Image')" title="Image" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_18_label" aria-describedby="cke_18_description" aria-haspopup="false" aria-disabled="false" onkeydown="return CKEDITOR.tools.callFunction(11,event);" onfocus="return CKEDITOR.tools.callFunction(12,event);" onclick="CKEDITOR.tools.callFunction(13,this);return false;"><span class="cke_button_icon cke_button__image_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -1224px;background-size:auto;">&nbsp;</span><span id="cke_18_label" class="cke_button_label cke_button__image_label" aria-hidden="false">Image</span><span id="cke_18_description" class="cke_button_label" aria-hidden="false"></span></a><a id="cke_19" class="cke_button cke_button__codesnippet cke_button_off" href="javascript:void('Insert Code Snippet')" title="Insert Code Snippet" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_19_label" aria-describedby="cke_19_description" aria-haspopup="false" aria-disabled="false" onkeydown="return CKEDITOR.tools.callFunction(14,event);" onfocus="return CKEDITOR.tools.callFunction(15,event);" onclick="CKEDITOR.tools.callFunction(16,this);return false;"><span class="cke_button_icon cke_button__codesnippet_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -384px;background-size:auto;">&nbsp;</span><span id="cke_19_label" class="cke_button_label cke_button__codesnippet_label" aria-hidden="false">Insert Code Snippet</span><span id="cke_19_description" class="cke_button_label" aria-hidden="false"></span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_20" class="cke_toolbar" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_21" class="cke_button cke_button__outdent cke_button_disabled " href="javascript:void('Decrease Indent')" title="Decrease Indent" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_21_label" aria-describedby="cke_21_description" aria-haspopup="false" aria-disabled="true" onkeydown="return CKEDITOR.tools.callFunction(17,event);" onfocus="return CKEDITOR.tools.callFunction(18,event);" onclick="CKEDITOR.tools.callFunction(19,this);return false;"><span class="cke_button_icon cke_button__outdent_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -1320px;background-size:auto;">&nbsp;</span><span id="cke_21_label" class="cke_button_label cke_button__outdent_label" aria-hidden="false">Decrease Indent</span><span id="cke_21_description" class="cke_button_label" aria-hidden="false"></span></a><a id="cke_22" class="cke_button cke_button__indent cke_button_off" href="javascript:void('Increase Indent')" title="Increase Indent" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_22_label" aria-describedby="cke_22_description" aria-haspopup="false" aria-disabled="false" onkeydown="return CKEDITOR.tools.callFunction(20,event);" onfocus="return CKEDITOR.tools.callFunction(21,event);" onclick="CKEDITOR.tools.callFunction(22,this);return false;"><span class="cke_button_icon cke_button__indent_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -1272px;background-size:auto;">&nbsp;</span><span id="cke_22_label" class="cke_button_label cke_button__indent_label" aria-hidden="false">Increase Indent</span><span id="cke_22_description" class="cke_button_label" aria-hidden="false"></span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_23" class="cke_toolbar" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_24" class="cke_button cke_button__numberedlist cke_button_off" href="javascript:void('Insert/Remove Numbered List')" title="Insert/Remove Numbered List" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_24_label" aria-describedby="cke_24_description" aria-haspopup="false" aria-disabled="false" onkeydown="return CKEDITOR.tools.callFunction(23,event);" onfocus="return CKEDITOR.tools.callFunction(24,event);" onclick="CKEDITOR.tools.callFunction(25,this);return false;"><span class="cke_button_icon cke_button__numberedlist_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -1632px;background-size:auto;">&nbsp;</span><span id="cke_24_label" class="cke_button_label cke_button__numberedlist_label" aria-hidden="false">Insert/Remove Numbered List</span><span id="cke_24_description" class="cke_button_label" aria-hidden="false"></span></a><a id="cke_25" class="cke_button cke_button__bulletedlist cke_button_off" href="javascript:void('Insert/Remove Bulleted List')" title="Insert/Remove Bulleted List" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_25_label" aria-describedby="cke_25_description" aria-haspopup="false" aria-disabled="false" onkeydown="return CKEDITOR.tools.callFunction(26,event);" onfocus="return CKEDITOR.tools.callFunction(27,event);" onclick="CKEDITOR.tools.callFunction(28,this);return false;"><span class="cke_button_icon cke_button__bulletedlist_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -1584px;background-size:auto;">&nbsp;</span><span id="cke_25_label" class="cke_button_label cke_button__bulletedlist_label" aria-hidden="false">Insert/Remove Bulleted List</span><span id="cke_25_description" class="cke_button_label" aria-hidden="false"></span></a></span><span class="cke_toolbar_end"></span></span><span id="cke_26" class="cke_toolbar cke_toolbar_last" role="toolbar"><span class="cke_toolbar_start"></span><span class="cke_toolgroup" role="presentation"><a id="cke_27" class="cke_button cke_button__mathjax cke_button_off" href="javascript:void('Math')" title="Math" tabindex="-1" hidefocus="true" role="button" aria-labelledby="cke_27_label" aria-describedby="cke_27_description" aria-haspopup="false" aria-disabled="false" onkeydown="return CKEDITOR.tools.callFunction(29,event);" onfocus="return CKEDITOR.tools.callFunction(30,event);" onclick="CKEDITOR.tools.callFunction(31,this);return false;"><span class="cke_button_icon cke_button__mathjax_icon" style="background-image:url('https://cdn.ckeditor.com/4.11.1/full-all/plugins/icons.png?t=IA8F');background-position:0 -1656px;background-size:auto;">&nbsp;</span><span id="cke_27_label" class="cke_button_label cke_button__mathjax_label" aria-hidden="false">Math</span><span id="cke_27_description" class="cke_button_label" aria-hidden="false"></span></a></span><span class="cke_toolbar_end"></span></span></span></span><div id="cke_1_contents" class="cke_contents cke_reset" role="presentation" style="height: 150px;"><span id="cke_31" class="cke_voice_label">Press ALT 0 for help</span><iframe src="" frameborder="0" class="cke_wysiwyg_frame cke_reset" title="Rich Text Editor, discussion-text" aria-describedby="cke_31" tabindex="0" allowtransparency="true" style="width: 100%; height: 100%;"></iframe></div><span id="cke_1_bottom" class="cke_bottom cke_reset_all" role="presentation" style="user-select: none;"><span id="cke_1_resizer" class="cke_resizer cke_resizer_vertical cke_resizer_ltr" title="Resize" onmousedown="CKEDITOR.tools.callFunction(1, event)">◢</span><span id="cke_1_path_label" class="cke_voice_label">Elements path</span><span id="cke_1_path" class="cke_path" role="group" aria-labelledby="cke_1_path_label"><span class="cke_path_empty">&nbsp;</span></span></span></div></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="clearfix">
+                            <div class="pull-right">
+                                <a id="btnPostDiscussion" class="btn discussion-submit">Submit</a>
+                                <input type="hidden" id="ctoken" value="3c0e8dc1565bab00fd4fc7804f0fa0da2f32181d9735d5988a884b57e3e8f1e2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="premium-modal" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="premium-modal">
+            <div class="modal-dialog">
+                <div class="modal-content" style="border-radius:0px">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" style="padding: 0 5px;position: absolute;right: 1.5rem"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <img class="img-responsive" src="https://media.geeksforgeeks.org/img-practice/doubt-non-premium-1600415643.png">
+                        <a href="https://premium.geeksforgeeks.org/premium-plans/" class="btn premium-plans">View Premium Plans</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="discussion-feed">
+                <div class="discussion-post" discussion="10582" reply="1" data-slug="huffman-decoding-java-1605418536" item-id="700592">
+        <div class="discussion-header">
+            <img src="https://media.geeksforgeeks.org/auth/avatar.png" class="discussion-profile  img-responsive">
+            <div class="discussion-info">
+                <div class="discussion-title openComment"><span>Huffman Decoding - Java</span> </div>
+                <div class="discussion-meta ">
+                    <span>Author: <a href="https://auth.geeksforgeeks.org/user/edisonhua" target="_blank">edisonhua</a></span>
+                    <span><img src="https://media.geeksforgeeks.org/img-practice/doubt-clock-1600253506.svg" class="img-responsive"> 2 months ago</span>
+                    <span><img src="https://media.geeksforgeeks.org/img-practice/doubt-views-1600253662.svg" class="img-responsive"> 22</span>
+                    <span><img src="https://media.geeksforgeeks.org/img-practice/doubt-replies-1600253734.svg" class="img-responsive"> 1</span>
+                    <span>Last Activity: Nov 15, 2020 11:31:37</span>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="row text-center"></div>
+    <section>
+        </section></section></div>
+                </div>
+                
+                <!-- add this button if full access is true to enable the chat button
+                 <button class="btn chat_button">
+                    <img class="live-chat-icon" src="https://media.geeksforgeeks.org/img-practice/headphones-1604913204.svg" />
+                    <img class="live-chat-close-icon" src="https://media.geeksforgeeks.org/img-practice/cross-1604913181.svg" style="display: none;" />
+                </button> -->
+            </div>
+            <script defer="" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML"></script>
+            <script defer="" type="text/javascript" src="/js/bootstrap-ckeditor.js"></script>
+            <script defer="" src="https://cdn.ckeditor.com/4.11.1/full-all/ckeditor.js"></script>
+            <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.11.1/adapters/jquery.js"></script>
+            <script id="forum-script" type="text/javascript" async="" src="https://cdnpractice.geeksforgeeks.org/js-min/discussionForum.js?v=4.6&amp;itemId=700592&amp;type=problems&amp;doubtAssistance=0"></script><script defer="" type="text/javascript" id="forum-embeder" class="async-script-loader">
+              (function() {
+                  var forumDiv = $("#forum-discussion");
+                  if( forumDiv.size() > 0 ) {
+                      var forumLoaded = false,
+                      top = forumDiv.offset().top, // from where to start loading
+                      check = function() {
+                              if( !forumLoaded) {
+                                  forumLoaded = true;
+
+                                  (function asyncLoad() {
+                                      var s = document.createElement('script');
+                                      s.id = "forum-script"
+                                      s.type = 'text/javascript';
+                                      s.async = true;
+                                      var theUrl = 'https://cdnpractice.geeksforgeeks.org/js-min/discussionForum.js?v=4.6';
+                                      theUrl = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?" ) + 'itemId=' + '700592'; //unique slug and discussion type
+                                      theUrl = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?" ) + 'type=' + 'problems';
+                                      theUrl = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?" ) + 'doubtAssistance=' + '0';
+                                      s.src = theUrl;
+                                      var embedder = document.getElementById('forum-embeder');
+                                      embedder.parentNode.insertBefore(s, embedder);
+                                  })();
+                              }
+                      };
+                      $( document ).ready(function() {
+                        check();                  
+                      });
+                  }
+              })();
+            </script>
+        </div>
+    </div>
+    

@@ -1,13 +1,13 @@
-#User function Template for python3
+# User function Template for python3
 class Solution:
 
-    def findMaximum(self,arr, n):
+    def findMaximum(self, arr, n):
         # code here
         return max(arr)
 
 
 '''
-#{ 
+#{
 #  Driver Code Starts
 #Initial Template for Python 3
 
