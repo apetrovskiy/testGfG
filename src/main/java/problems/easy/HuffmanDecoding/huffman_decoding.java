@@ -6,6 +6,7 @@ import java.util.*;
 import java.io.*;
 import java.lang.*;
 
+@SuppressWarnings("PMD")
 class MinHeapNode
 {
 	char data;
@@ -22,15 +23,16 @@ class MinHeapNode
 // comparator class helps to compare the node 
 // on the basis of one of its attribute. 
 // Here we will be compared 
-// on the basis of data values of the nodes. 
-class MyComparator implements Comparator<MinHeapNode> { 
+// on the basis of data values of the nodes.
+class MyComparator implements Comparator<MinHeapNode> {
     public int compare(MinHeapNode x, MinHeapNode y) 
     { 
   
         return x.freq - y.freq; 
     } 
-} 
+}
 
+@SuppressWarnings("PMD")
 class Driver_class
 {
         static HashMap<Character, String> codes = new HashMap<>();
@@ -127,6 +129,7 @@ class Driver_class
     }
 }*/
 
+@SuppressWarnings("PMD")
 class Decode
 {
     static String decodeHuffmanData(MinHeapNode root, String binaryString)

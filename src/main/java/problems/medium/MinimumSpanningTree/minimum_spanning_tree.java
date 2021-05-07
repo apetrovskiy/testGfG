@@ -4,6 +4,7 @@ import java.util.*;
 import java.io.*;
 import java.lang.*;
 
+@SuppressWarnings("PMD")
 class DriverClass {
     public static void main(String args[]) throws IOException {
 
@@ -41,6 +42,7 @@ class DriverClass {
 
 // User function Template for Java
 
+@SuppressWarnings("PMD")
 class Solution {
     static int spanningTree(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj) {
         // Add your code here

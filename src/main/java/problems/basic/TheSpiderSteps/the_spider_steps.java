@@ -3,9 +3,9 @@ package problems.basic.TheSpidersSteps;
 //Initial Template for Java
 
 import java.io.*;
-import java.util.*;
 import java.lang.*;
 
+@SuppressWarnings("PMD")
 class GFG{
     public static void main(String args[])throws IOException
     {

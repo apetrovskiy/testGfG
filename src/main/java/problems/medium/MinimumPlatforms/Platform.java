@@ -1,10 +1,11 @@
 // { Driver Code Starts
 //Initial Template for Java
+package problems.medium.MinimumPlatforms;
 
-import java.util.*;
 import java.io.*;
 import java.lang.*;
 
+@SuppressWarnings("PMD")
 class Driver_class
 {
     public static void main(String args[])throws IOException

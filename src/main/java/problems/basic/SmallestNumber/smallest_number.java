@@ -1,8 +1,10 @@
 // { Driver Code Starts
 //Initial Template for Java
-import java.io.*;
-import java.util.*;
+package problems.basic.SmallestNumber;
 
+import java.io.*;
+
+@SuppressWarnings("PMD")
 class GFG
 {
     public static void main(String args[])throws IOException

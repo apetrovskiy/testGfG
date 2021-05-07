@@ -1,8 +1,8 @@
 package problems.basic.LCMandGCD;
 // { Driver Code Starts
 import java.io.*;
-import java.util.*;
 
+@SuppressWarnings("PMD")
 class GFG {
     public static void main(String args[]) throws IOException {
         BufferedReader read =
@@ -23,10 +23,10 @@ class GFG {
     }
 }// } Driver Code Ends
 
-
+@SuppressWarnings("PMD")
 class Solution {
     static Long[] lcmAndGcd(Long A , Long B) {
         // code here
         return new Long[]{};
     }
-};
+}
