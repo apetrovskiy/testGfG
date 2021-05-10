@@ -1,0 +1,57 @@
+{
+  "uid" : "deefa17e3325d034",
+  "name" : "testSomeLibraryMethod",
+  "fullName" : "testGfG.LibraryTest.testSomeLibraryMethod",
+  "historyId" : "297b054a4c81334421efb4dbcd528ff5",
+  "time" : {
+    "start" : 1620639051080,
+    "stop" : 1620639051160,
+    "duration" : 80
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az173-805"
+  }, {
+    "name" : "thread",
+    "value" : "3348@fv-az173-805.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "testGfG.LibraryTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testGfG.LibraryTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSomeLibraryMethod"
+  }, {
+    "name" : "suite",
+    "value" : "testGfG.LibraryTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "deefa17e3325d034.json",
+  "parameterValues" : [ ]
+}
