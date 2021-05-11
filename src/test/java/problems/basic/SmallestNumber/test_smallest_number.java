@@ -1,3 +1,1 @@
-public class test_smallest_number {
-    
-}
+public class test_smallest_number {}
