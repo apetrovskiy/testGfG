@@ -1,12 +1,11 @@
 # User function Template for python3
 class Solution:
-
     def findMaximum(self, arr, n):
         # code here
         return max(arr)
 
 
-'''
+"""
 #{
 #  Driver Code Starts
 #Initial Template for Python 3
@@ -26,4 +25,4 @@ if __name__ == '__main__':
         tc -= 1
 
 # } Driver Code Ends
-'''
+"""

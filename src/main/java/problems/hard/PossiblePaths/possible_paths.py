@@ -1,12 +1,13 @@
 # User function Template for python3
 
+
 class Solution:
     def maximumWeight(self, n, edges, q, queries):
         # code here
         return [1]
 
 
-'''
+"""
 #{
 #  Driver Code Starts
 #Initial Template for Python 3
@@ -33,4 +34,4 @@ if __name__ == '__main__':
 
 
 # } Driver Code Ends
-'''
+"""

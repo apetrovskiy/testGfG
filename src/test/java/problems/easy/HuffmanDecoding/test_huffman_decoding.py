@@ -5,13 +5,12 @@
 
 
 test_data = [
-    ("0000000000001100101010101011111111010101010",
-     None, "AAAAAABCCCCCCDDEEEEE"),
-    ("01110100011111000101101011101000111", None, "geeksforgeeks")
+    ("0000000000001100101010101011111111010101010", None, "AAAAAABCCCCCCDDEEEEE"),
+    ("01110100011111000101101011101000111", None, "geeksforgeeks"),
 ]
 
 
-'''
+"""
 @pytest.mark.parametrize("binaryString,root,expected_result", test_data)
 def test_huffman_decoding(binaryString: str,
 root: MinHeapNode, expected_result: str):
@@ -33,4 +32,4 @@ root: MinHeapNode, expected_result: str):
         encodedString += codes[i]
     huffmanCodes(expected_result)
     assert expected_result == decodeHuffmanData(minheap[0][2], binaryString)
-'''
+"""

@@ -5,12 +5,12 @@
 
 
 def minimumPlatform(n, arr, dep):
-    '''
+    """
     :param n: number of activities
     :param arr: arrival time of trains
     :param dep: corresponding departure time of trains
     :return: Integer, minimum number of platforms needed
-    '''
+    """
     # code here
     # based on
     # https://practice.geeksforgeeks.org/viewSol.php?subId=
@@ -28,7 +28,7 @@ def minimumPlatform(n, arr, dep):
         elif arr[arr_index] > dep[dep_index]:
             add_platform -= 1
             dep_index += 1
-        if (add_platform > platforms):
+        if add_platform > platforms:
             platforms = add_platform
     return platforms
 
@@ -40,7 +40,7 @@ def minimumPlatform(n, arr, dep):
 # Contributed by : Nagendra Jha
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     test_cases = int(input())
     for cases in range(test_cases):
         n = int(input())

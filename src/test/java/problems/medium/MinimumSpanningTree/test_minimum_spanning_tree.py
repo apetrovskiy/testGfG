@@ -1,5 +1,6 @@
-from src.main.java.problems.medium.MinimumSpanningTree.minimum_spanning_tree \
-    import Solution
+from src.main.java.problems.medium.MinimumSpanningTree.minimum_spanning_tree import (
+    Solution,
+)
 import pytest
 
 
@@ -15,7 +16,7 @@ def test_minimum_spanning_tree(vertices, matrix, expected_result):
     assert expected_result == Solution().spanningTree(vertices, matrix)
 
 
-'''
+"""
 Input:
 4 5
 0 1 6
@@ -29,4 +30,4 @@ Its Correct output is:
 
 And Your Code's output is:
 3
-'''
+"""

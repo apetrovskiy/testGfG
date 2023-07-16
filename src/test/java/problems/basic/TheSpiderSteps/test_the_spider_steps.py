@@ -1,5 +1,4 @@
-from src.main.java.problems.basic.TheSpiderSteps.the_spider_steps \
-    import Solution
+from src.main.java.problems.basic.TheSpiderSteps.the_spider_steps import Solution
 import pytest
 
 
@@ -8,7 +7,7 @@ test_data = [
     (100, 5, 3, 49),
     (10, 4, 1, 4),
     (500, 20, 15, 98),
-    (25, 26, 24, 1)
+    (25, 26, 24, 1),
 ]
 
 

@@ -3,10 +3,7 @@ from src.main.java.problems.basic.LCMandGCD.LCM_and_GCD import Solution
 import pytest
 
 
-test_data = [
-    (5, 10, [10, 5]),
-    (14, 8, [56, 2])
-]
+test_data = [(5, 10, [10, 5]), (14, 8, [56, 2])]
 
 
 @pytest.mark.parametrize("a,b,expected_result", test_data)
