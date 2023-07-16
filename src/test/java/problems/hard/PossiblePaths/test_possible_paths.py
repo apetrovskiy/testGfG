@@ -11,8 +11,12 @@ test_data = [
 ]
 
 
-@ pytest.mark.parametrize("n,edges,q,queries,expected_result", test_data)
-def test_possible_paths(n: int, edges: List[List[int]],
-                        q: int, queries: List[int],
-                        expected_result: List[int]):
+@pytest.mark.parametrize("n,edges,q,queries,expected_result", test_data)
+def test_possible_paths(
+    n: int,
+    edges: List[List[int]],
+    q: int,
+    queries: List[int],
+    expected_result: List[int],
+):
     assert expected_result == Solution().maximumWeight(n, edges, q, queries)

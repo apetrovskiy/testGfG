@@ -8,7 +8,7 @@ def frequencycount(A, N):
         A[index - 1] = counter[index]
 
 
-'''
+"""
 #{
 #  Driver Code Starts
 #Initial Template for Python 3
@@ -28,4 +28,4 @@ if __name__=="__main__":
 
 
 # } Driver Code Ends
-'''
+"""

@@ -10,7 +10,7 @@ def convertToWave(A, N):
         A[index] = previous
 
 
-'''
+"""
 #{
 #  Driver Code Starts
 #Initial Template for Python 3
@@ -37,4 +37,4 @@ def main():
 if __name__=="__main__":
     main()
 # } Driver Code Ends
-'''
+"""

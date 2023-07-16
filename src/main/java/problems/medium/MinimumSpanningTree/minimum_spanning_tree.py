@@ -1,19 +1,20 @@
 # User function Template for python3
 
+
 class Solution:
     # Function to construct and return cost of MST for a graph
     # represented using adjacency matrix representation
-    '''
+    """
     V: nodes in graph
     adj: adjacency list
-    '''
+    """
 
     def spanningTree(self, V, adj):
         # code here
         return 1
 
 
-'''
+"""
 #{
 #  Driver Code Starts
 #Initial Template for Python 3
@@ -36,4 +37,4 @@ if __name__ == '__main__':
 
         print(ob.spanningTree(V,adj))
 # } Driver Code Ends
-'''
+"""
