@@ -6,26 +6,26 @@ import java.io.*;
 
 @SuppressWarnings("PMD")
 class GFG {
-  public static void main(String args[]) throws IOException {
-    BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-    int t = Integer.parseInt(in.readLine());
-    while (t-- > 0) {
-      String arr[] = in.readLine().trim().split("\\s+");
-      int H = Integer.parseInt(arr[0]);
-      int U = Integer.parseInt(arr[1]);
-      int D = Integer.parseInt(arr[2]);
+    public static void main(String args[]) throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        int t = Integer.parseInt(in.readLine());
+        while (t-- > 0) {
+            String arr[] = in.readLine().trim().split("\\s+");
+            int H = Integer.parseInt(arr[0]);
+            int U = Integer.parseInt(arr[1]);
+            int D = Integer.parseInt(arr[2]);
 
-      Solution ob = new Solution();
-      System.out.println(ob.minStep(H, U, D));
+            Solution ob = new Solution();
+            System.out.println(ob.minStep(H, U, D));
+        }
     }
-  }
 } // } Driver Code Ends
 
 // User function Template for Java
 
 class Solution {
-  static int minStep(int H, int U, int D) {
-    // code here
-    return 0;
-  }
+    static int minStep(int H, int U, int D) {
+        // code here
+        return 0;
+    }
 }
